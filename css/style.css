@@ -1,0 +1,81 @@
+body {
+    background-color: #c8d6e5;
+}
+
+nav {
+    margin-bottom: 70px;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.outPut {
+    height: 60px;
+    width: 700px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: 2px solid #ee6e73;
+    overflow: hidden;
+    padding-top: 0;
+    margin-bottom: 1rem;
+    background-color: #c8d6e5;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+span.clipboard {
+    cursor: pointer;
+}
+
+
+svg {
+    padding-left: 0;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    fill: white;
+}
+
+svg:hover {
+    fill: whitesmoke;
+}
+
+.select-box {
+    margin-bottom: 40px;
+
+}
+
+.select-box select {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select.browser-default {
+    width: 60px;
+}
+
+.selected {
+    margin: 2rem;
+}
+
+.switch {
+    margin-bottom: 15px;
+}
+
+a {
+    padding: 120px 5px; 
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 1.2rem 1.2rem;
+}
